@@ -1,0 +1,15 @@
+name: ram_cleaner
+description: RAM Force Cleaner
+publish_to: "none"
+version: 7.0.0+7
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+
+flutter:
+  uses-material-design: true
